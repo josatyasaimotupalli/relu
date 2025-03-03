@@ -25,7 +25,7 @@ const Register = () => {
      console.log('User Registered Successfully')
     } catch (error) {
       console.log(error.message)
-      toast.success("error.message",{position:'bottom-center'})
+      toast.error("error.message",{position:'bottom-center'})
     }
   };
   return (
